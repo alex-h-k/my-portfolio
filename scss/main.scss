@@ -1,6 +1,6 @@
 @import "config";
 @import "menu";
-@import "mobile";
+
 * {
   box-sizing: border-box;
 }
@@ -107,3 +107,4 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
 }
+@import "mobile";
